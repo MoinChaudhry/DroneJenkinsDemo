@@ -6,4 +6,4 @@ steps:
       image: openjdk:8
       commands:
         - javac helloworld.java
-        - java hellowolrd
+        - java helloworld
