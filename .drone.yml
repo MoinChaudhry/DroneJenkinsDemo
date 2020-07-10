@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: dronepipeline
+steps:
+    - name: drone build
+      image: openjdk:8
+      commands:
+        - javac helloworld.java
+        - java hellowolrd
